@@ -35,9 +35,6 @@ comparative_results/*.pth
 *.pdf
 
 # Output Prediction Arrays & Temporary Test Folders
-predictions/
-test_predictions/
-test_results/
 *.npy
 *.npz
 
