@@ -1,0 +1,19 @@
+name: glacier_unet
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cpuonly
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - pillow
+  - pip
+  - pip:
+    - opencv-python
+    - albumentations

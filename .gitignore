@@ -1,0 +1,45 @@
+# Python & PyCache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & IDEs
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+
+# Large Datasets & Archives (DO NOT COMMIT)
+archive.zip
+*.zip
+*.tar
+*.gz
+glacial-lake-dataset/
+data/
+test_data/
+synthetic/
+
+# Models & Weights (DO NOT COMMIT)
+checkpoint/
+results/*.pth
+comparative_results/*.pth
+*.pth
+*.pt
+*.onnx
+
+# PDF Files & Papers (DO NOT COMMIT)
+*.pdf
+
+# Output Prediction Arrays & Temporary Test Folders
+predictions/
+test_predictions/
+test_results/
+*.npy
+*.npz
+
+# Logs
+*.log

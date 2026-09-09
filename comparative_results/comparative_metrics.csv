@@ -1,0 +1,4 @@
+Model,Parameters (M),Latency (ms),Dice Score,IoU Score,Precision,Recall
+U-Net,31.04,2117.92,0.9728,0.947,1.0,0.9471
+SUNet (Swin-UNet),47.58,2533.07,0.9795,0.9598,0.9999,0.9599
+Attention U-Net,31.39,1090.19,0.1608,0.0874,1.0,0.0874
