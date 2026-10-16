@@ -1,0 +1,4 @@
+Model Architecture,Parameters (M),Dice Score,IoU Score,Precision,Recall
+U-Net (Baseline),31.04,0.8962,0.8119,0.9332,0.862
+Attention U-Net,31.39,0.9001,0.8183,0.9224,0.8788
+SUNet (Swin-UNet),47.58,0.8806,0.7866,0.893,0.8685

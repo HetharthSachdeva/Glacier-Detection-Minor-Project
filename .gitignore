@@ -1,10 +1,10 @@
-# Python & PyCache
+# Python & Bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# Environment & IDEs
+# Virtual Environments
 .env
 .venv
 env/
@@ -13,7 +13,7 @@ ENV/
 .idea/
 .vscode/
 
-# Large Datasets & Archives (DO NOT COMMIT)
+# Large Datasets, Archives & GIS Shapes (DO NOT COMMIT)
 archive.zip
 *.zip
 *.tar
@@ -22,19 +22,34 @@ glacial-lake-dataset/
 data/
 test_data/
 synthetic/
+RGI2000-v7.0-*/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.xml
+*.tif
+*.tiff
 
-# Models & Weights (DO NOT COMMIT)
+# Temporary Cookies & Session Files
+mycookies.txt
+*.cookie
+
+# Model Weights & Checkpoints (DO NOT COMMIT)
 checkpoint/
-results/*.pth
-comparative_results/*.pth
+results/
 *.pth
 *.pt
 *.onnx
 
-# PDF Files & Papers (DO NOT COMMIT)
+# PDF Documents
 *.pdf
 
-# Output Prediction Arrays & Temporary Test Folders
+# Output Binary Arrays & Run Caches
+predictions/
+test_predictions/
+test_results/
 *.npy
 *.npz
 
