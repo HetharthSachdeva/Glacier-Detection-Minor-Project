@@ -1,0 +1,2 @@
+R2_Score,RMSE_km2,MAE_km2,MAPE_pct,Model,Training_Time_s,Params
+0.9974,0.3079,0.0941,1.5,Random Forest,4.03,N/A

@@ -1,0 +1,5 @@
+Model,Area_R2,RMSE_km2,MAE_km2,Alert_Acc_pct,Risk_F1,Time_s
+Random Forest,0.9855,0.0408,0.0117,100.0,1.0000,4.45
+Multi-Task DLinear,0.9778,0.0504,0.0304,100.0,1.0000,3.98
+Multi-Task TCN,0.9734,0.0552,0.0250,98.3333,0.4958,6.56
+Multi-Task LSTM,0.9692,0.0594,0.0410,100.0,1.0000,13.65
